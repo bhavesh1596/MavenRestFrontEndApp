@@ -1,0 +1,16 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>/view/EmployeeLogin.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>GetEmployeesServlet</servlet-name>
+    <servlet-class>restController.servlet.GetEmployeesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>GetEmployeesServlet</servlet-name>
+    <url-pattern>/getEmployees</url-pattern>
+  </servlet-mapping>
+</web-app>
